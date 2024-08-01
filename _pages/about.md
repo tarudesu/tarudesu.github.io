@@ -18,8 +18,8 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I am presently serving as a lecturer at the University of Information Technology, Vietnam National University Ho Chi Minh City. 
-- As an undergraduate, I focused on social media text mining under the mentorship of Dr. [Dr. Kiet Van Nguyen](https://www.researchgate.net/profile/Kiet-Nguyen-14) and Assoc. Prof. [Ngan Luu-Thuy Nguyen](https://dblp.org/pid/174/4407.html).
-- During my master's studies, I had the privilege of being supervised by Prof. [Prof. Sakriani Sakti](https://hai-lab.naist.jp/profile/ssakti/index.html), where I delved into zero-resource speech processing and speech-to-speech translation. This work sparked a profound interest in linguistics and motivated me to explore this field further.
+- As an undergraduate, I focused on social media text mining under the mentorship of [Dr. Kiet Van Nguyen](https://www.researchgate.net/profile/Kiet-Nguyen-14) and [Assoc. Prof. Ngan Luu-Thuy Nguyen](https://dblp.org/pid/174/4407.html).
+- During my master's studies, I had the privilege of being supervised by [Prof. Sakriani Sakti](https://hai-lab.naist.jp/profile/ssakti/index.html), where I delved into zero-resource speech processing and speech-to-speech translation. This work sparked a profound interest in linguistics and motivated me to explore this field further.
 
 Currently, I am passionate about leveraging AI to preserve and revive endangered languages. Also, my research is centered on the automatic generation of data to address the challenges of limited resources.
 
@@ -77,7 +77,7 @@ University”, Japan - IPP 2020 by [Saga University](https://www.saga-u.ac.jp/en
 - *2017*: "Third place winner in UIT Singing Festival" by [UIT @ Vietnam National University Ho Chi Minh City](https://en.uit.edu.vn/), Vietnam.
 
 ## 📖 Educations
-
+---
 ### Master of Science in Information Science
 - **Location:** Japan Advanced Institute of Science and Technology  
 - **Duration:** 2021 - 2023  
@@ -86,8 +86,7 @@ University”, Japan - IPP 2020 by [Saga University](https://www.saga-u.ac.jp/en
 - **Supervisor:** [Prof. Sakriani Sakti](https://hai-lab.naist.jp/profile/ssakti/index.html)  
 - **Awards:**
   - "Outstanding Dedications and Contributions in Research" by HA3CI Laboratory, JAIST. 2023.
-
-
+---
 ### Bachelor of Science in Information Technology
 - **Location:** University of Information Technology, Vietnam National University Ho Chi Minh City  
 - **Duration:** 2017 - 2021  
