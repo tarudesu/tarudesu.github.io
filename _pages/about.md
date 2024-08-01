@@ -76,7 +76,7 @@ University”, Japan - IPP 2020 by [Saga University](https://www.saga-u.ac.jp/en
 - *2018*: “Third place winner in UIT Young Creative Idea” by [UIT @ Vietnam National University Ho Chi Minh City](https://en.uit.edu.vn/), Vietnam.
 - *2017*: "Third place winner in UIT Singing Festival" by [UIT @ Vietnam National University Ho Chi Minh City](https://en.uit.edu.vn/), Vietnam.
 
-## 📖 Educations
+# 📖 Educations
 ---
 ### Master of Science in Information Science
 - **Location:** Japan Advanced Institute of Science and Technology  
@@ -86,7 +86,7 @@ University”, Japan - IPP 2020 by [Saga University](https://www.saga-u.ac.jp/en
 - **Supervisor:** [Prof. Sakriani Sakti](https://hai-lab.naist.jp/profile/ssakti/index.html)  
 - **Awards:**
   - "Outstanding Dedications and Contributions in Research" by HA3CI Laboratory, JAIST. 2023.
----
+
 ### Bachelor of Science in Information Technology
 - **Location:** University of Information Technology, Vietnam National University Ho Chi Minh City  
 - **Duration:** 2017 - 2021  
