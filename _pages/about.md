@@ -69,7 +69,6 @@ I am also <span style="color: #FF8C00; font-weight: bold;">exploring the possibi
 - *2022:* “Collaborative Education Program Scholarship” by [Japan Advanced Institute of Science and Technology](https://www.jaist.ac.jp/english/), Japan.
 - *2022:* “Excellent Achievement in Scientific Research and Achieved Scholarship for Master Program” by [INSTITUTE OF BIG DATA, VinGroup Innovation Foundation (VinIF)](https://vinif.org/en/), Vietnam.
 - *2021:* “Typical 5-Good Students of Vietnam National University” by [Vietnam National University Ho Chi Minh City](https://vnuhcm.edu.vn/), Vietnam.
-- *2021:* “Typical 5-Good Students of Vietnam National University” by [Vietnam National University Ho Chi Minh City](https://vnuhcm.edu.vn/), Vietnam.
 - *2021:* “Good achievement in scientific research” by [Vietnam National University Ho Chi Minh City](https://vnuhcm.edu.vn/), Vietnam.
 - *2020:* “Short-term Exchange Student Program between UIT and Saga
 University”, Japan - IPP 2020 by [Saga University](https://www.saga-u.ac.jp/en/), Japan.
