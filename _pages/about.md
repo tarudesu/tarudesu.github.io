@@ -25,8 +25,6 @@ Currently, I am passionate about leveraging AI to preserve and revive endangered
 
 ---
 
-I am also <span style="color: #FF8C00; font-weight: bold;">exploring the possibility of enrolling in a Ph.D. program</span> in the Spring of 2025.
-
 # 🔥 News
 - *2024.08*: &nbsp;🎉🎉 I have started my role as a visiting scholar at [HRL Laboratory](https://hlr.github.io/team/) under the guidance of [Dr. Parisa Kordjamshidi](https://www.cse.msu.edu/~kordjams/) at Michigan State University, USA!
 - *2024.06*: &nbsp;🎉🎉 Our paper "ViHateT5: Enhancing Hate Speech Detection in Vietnamese With A Unified Text-to-Text Transformer Model" has been accepted at [**ACL 2024**](https://2024.aclweb.org/) (Rank A*)!
