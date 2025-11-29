@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Thanh Luan (TARU) | Researcher & Lecturer</title>
+    <meta name="description"
+        content="Personal profile of Nguyen Thanh Luan, Lecturer at UIT and Researcher in Low-resource Language Processing, Machine Translation, and Large Language Models.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700&family=Unbounded:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* Additional styles for Show More button */
+        .show-more-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .show-more-btn {
+            background: var(--card-bg);
+            color: var(--accent-gradient-start);
+            border: 2px solid var(--accent-gradient-start);
+            padding: 14px 30px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .show-more-btn:hover {
+            background: var(--accent-gradient-start);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .show-more-btn i {
+            transition: transform 0.3s ease;
+        }
+
+        .show-more-btn.expanded i {
+            transform: rotate(180deg);
+        }
+
+        .pub-item-bento.hidden {
+            display: none;
+        }
+
+        /* Smooth transition for publications */
+        .pub-item-bento {
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .pub-item-bento.fade-in {
+            animation: fadeInUp 0.5s ease forwards;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="blob-bg"></div>
+    <div class="background-noise"></div>
+
+    <div class="bento-container">
+        <!-- Sidebar / Header (Mobile) -->
+        <header class="bento-sidebar">
+            <div class="profile-block">
+                <div class="profile-img-container">
+                    <img src="profile_photo.jpg" alt="Nguyen Thanh Luan" class="profile-img">
+                </div>
+                <h1><span class="gradient-text">Nguyen Thanh Luan</span> 🇻🇳 <span class="nickname">(taru)</span></h1>
+                <p class="role">Researcher & Lecturer</p>
+                <p class="bio">Specializing in Low-resource Language Processing, Machine Translation, and Large Language
+                    Models.</p>
+
+                <div class="social-links">
+                    <a href="mailto:luannt@uit.edu.vn" class="social-btn"><i class="fas fa-envelope"></i></a>
+                    <a href="https://scholar.google.com/citations?user=FTGg8ZMAAAAJ&hl=en" target="_blank"
+                        class="social-btn"><i class="fas fa-graduation-cap"></i></a>
+                    <a href="https://www.linkedin.com/in/luannt-uit/" target="_blank" class="social-btn"><i
+                            class="fab fa-linkedin"></i></a>
+
+                </div>
+            </div>
+
+            <nav class="bento-nav">
+                <a href="#about" class="nav-item active">About</a>
+                <a href="#experience" class="nav-item">Experience</a>
+                <a href="#publications" class="nav-item">Publications</a>
+                <a href="#honors" class="nav-item">Honors</a>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="bento-main">
+
+            <!-- About Section -->
+            <section id="about" class="bento-section reveal">
+                <div class="bento-card large-card">
+                    <h2 class="card-title"><i class="fas fa-user-astronaut section-icon"></i> About Me</h2>
+                    <div class="card-content">
+                        <p>I am a Lecturer and Researcher at the <strong>University of Information Technology
+                                (VNU-HCM)</strong>. My work spans <strong>Speech Processing</strong>,
+                            <strong>Multilingual
+                                NLP</strong>, and <strong>Low-resource Language Technologies</strong>, with a broader
+                            goal
+                            of building <strong>practical and culturally-grounded AI systems</strong> that support
+                            communication across underrepresented languages.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="bento-section reveal">
+                <h2 class="section-header"><i class="fas fa-briefcase section-icon"></i> Experience</h2>
+                <div class="timeline-container">
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content bento-card">
+                            <div class="card-header">
+                                <span class="date">Aug 2024 - Nov 2024</span>
+                                <h3>Visiting Scholar</h3>
+                                <h4>Michigan State University, USA</h4>
+                            </div>
+                            <p>Collaborating on a project focused on leveraging in-context learning for idiom-aware
+                                machine translation.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content bento-card">
+                            <div class="card-header">
+                                <span class="date">Oct 2022 - Sep 2023</span>
+                                <h3>Laboratory Assistant</h3>
+                                <h4>HA3CI Laboratory, JAIST, Japan</h4>
+                            </div>
+                            <p>Engaging in research efforts for a master's project on direct speech-to-speech
+                                translation.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content bento-card">
+                            <div class="card-header">
+                                <span class="date">Apr 2023 - Present</span>
+                                <h3>Lecturer</h3>
+                                <h4>University of Information Technology, VNU-HCM</h4>
+                            </div>
+                            <p>Mentoring students, designing curriculum, and supervising research projects on speech
+                                translation.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content bento-card">
+                            <div class="card-header">
+                                <span class="date">Oct 2021 - Mar 2023</span>
+                                <h3>Teaching Assistant</h3>
+                                <h4>University of Information Technology, VNU-HCM</h4>
+                            </div>
+                            <p>Assisting in conducting practical classes for undergraduate students.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Education Section (Merged into Experience or separate small section) -->
+            <section id="education" class="bento-section reveal">
+                <h2 class="section-header"><i class="fas fa-graduation-cap section-icon"></i> Education</h2>
+                <div class="bento-grid">
+                    <div class="bento-card">
+                        <div class="card-header">
+                            <span class="date">2021 - 2023</span>
+                            <h3>MSc. in Information Science</h3>
+                            <h4>JAIST, Japan</h4>
+                        </div>
+                        <p><strong>Thesis:</strong> Zero-resourced Speech-to-Speech Translation for Unpaired and
+                            Untranscribed Languages Based on Visually Grounded Self-Supervised Speech Models
+                            (<strong>Grade: 100/100</strong>)
+                        </p>
+                    </div>
+                    <div class="bento-card">
+                        <div class="card-header">
+                            <div
+                                style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                                <span class="date">2016 - 2021 | Valedictorian</span>
+                            </div>
+                            <h3>BSc. in Information Technology</h3>
+                            <h4>VNU-HCM</h4>
+                        </div>
+                        <p><strong>Thesis:</strong> Constructive and Toxic Speech Detection for Open-domain Social
+                            Media Comments in Vietnamese (<strong>Grade: 9.9/10</strong>)</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Publications Section -->
+            <section id="publications" class="bento-section reveal">
+                <h2 class="section-header"><i class="fas fa-book-open section-icon"></i> Selected Publications</h2>
+                <div class="publications-list-bento" id="publications-list">
+                    <!-- Recent 5 Publications (Always Visible) -->
+                    <div class="pub-item-bento">
+                        <span class="venue-tag">AACL-IJCNLP 2025</span>
+                        <h3>Don't Take it Literally! Idiom-aware Vietnamese Translation via In-context Learning</h3>
+                        <p><strong>Luan Thanh Nguyen</strong>, Parisa Kordjamshidi</p>
+                    </div>
+                    <a href="https://www.isca-archive.org/interspeech_2025/do25b_interspeech.pdf" target="_blank"
+                        class="pub-item-bento">
+                        <span class="venue-tag">INTERSPEECH 2025</span>
+                        <h3>ViToSA: Audio-Based Toxic Spans Detection on Vietnamese Speech Utterances</h3>
+                        <p>Huy Ba Do, Vy Le-Phuong Huynh, <strong>Luan Thanh Nguyen</strong></p>
+                    </a>
+                    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10833610" target="_blank"
+                        class="pub-item-bento">
+                        <span class="venue-tag">IEEE Access 2025</span>
+                        <h3>ZeST: A Zero-resourced Speech-to-Speech Translation Approach</h3>
+                        <p><strong>Luan Thanh Nguyen</strong>, Sakriani Sakti</p>
+                    </a>
+                    <a href="https://aclanthology.org/2024.emnlp-main.426.pdf" target="_blank" class="pub-item-bento">
+                        <span class="venue-tag">EMNLP 2024</span>
+                        <h3>Multi-Dialect Vietnamese: Task, Dataset, Baseline Models and Challenges</h3>
+                        <p>Nguyen Van Dinh, Thanh Chi Dang, <strong>Luan Thanh Nguyen</strong>, Kiet Van Nguyen</p>
+                    </a>
+                    <a href="https://aclanthology.org/2024.findings-acl.355.pdf" target="_blank" class="pub-item-bento">
+                        <span class="venue-tag">ACL 2024</span>
+                        <h3>ViHateT5: Enhancing Hate Speech Detection in Vietnamese</h3>
+                        <p><strong>Luan Thanh Nguyen</strong></p>
+                    </a>
+
+                    <!-- Additional Publications (Initially Hidden) -->
+                    <a href="https://www.isca-archive.org/sigul_2023/nguyen23_sigul.pdf" target="_blank"
+                        class="pub-item-bento hidden additional-pub">
+                        <span class="venue-tag">SIGUL 2023</span>
+                        <h3>VGSAlign: Bilingual Speech Alignment of Unpaired Languages</h3>
+                        <p><strong>Luan Thanh Nguyen</strong>, Sakriani Sakti</p>
+                    </a>
+                    <a href="https://aclanthology.org/2022.paclic-1.31.pdf" target="_blank"
+                        class="pub-item-bento hidden additional-pub">
+                        <span class="venue-tag">PACLIC 2022</span>
+                        <h3>SMTCE: A Social Media Text Classification Evaluation Benchmark and BERTology Models for
+                            Vietnamese</h3>
+                        <p><strong>Luan Thanh Nguyen</strong>, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen</p>
+                    </a>
+                    <a href="https://arxiv.org/pdf/2103.10069" target="_blank"
+                        class="pub-item-bento hidden additional-pub">
+                        <span class="venue-tag">IEA/AIE 2021</span>
+                        <h3>Constructive and Toxic Speech Detection for Open-Domain Social Media Comments in Vietnamese
+                        </h3>
+                        <p><strong>Luan Thanh Nguyen</strong>, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen</p>
+                    </a>
+                </div>
+
+                <div class="show-more-container">
+                    <button class="show-more-btn" id="showMoreBtn">
+                        <span id="btnText">Show More</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Honors Section -->
+            <section id="honors" class="bento-section reveal">
+                <h2 class="section-header"><i class="fas fa-award section-icon"></i> Honors & Awards</h2>
+                <div class="honors-list-bento">
+                    <div class="honor-row">
+                        <span class="year">2024</span>
+                        <div class="honor-details">
+                            <h4>Nominated Visiting Scholar - USAID PHER Program</h4>
+                            <p>Funded $10,800</p>
+                        </div>
+                    </div>
+                    <div class="honor-row">
+                        <span class="year">2023</span>
+                        <div class="honor-details">
+                            <h4>Outstanding Dedications and Contributions in Research</h4>
+                            <p>HA3CI Laboratory @ JAIST, Japan</p>
+                        </div>
+                    </div>
+                    <div class="honor-row">
+                        <span class="year">2022</span>
+                        <div class="honor-details">
+                            <h4>Fully-funded Scholarship for Master Program</h4>
+                            <p>JAIST, Japan ($10,000)</p>
+                        </div>
+                    </div>
+                    <div class="honor-row">
+                        <span class="year">2022</span>
+                        <div class="honor-details">
+                            <h4>Excellent Achievement in Scientific Research</h4>
+                            <p>VinIF, Vietnam ($5,000)</p>
+                        </div>
+                    </div>
+                    <div class="honor-row">
+                        <span class="year">2021</span>
+                        <div class="honor-details">
+                            <h4>Valedictorian in Information Technology</h4>
+                            <p>UIT @ VNU-HCM</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Academic Services Section -->
+            <section id="services" class="bento-section reveal">
+                <h2 class="section-header"><i class="fas fa-handshake section-icon"></i> Academic Services</h2>
+                <div class="bento-grid">
+                    <div class="bento-card">
+                        <h3>Conference Reviewer</h3>
+                        <p>ACL-SRW'25, Regular ACL ARR (2024, 2025), ICASSP'25</p>
+                    </div>
+                    <div class="bento-card">
+                        <h3>Organizer</h3>
+                        <p>VLSP'21 - ViMRC Challenge</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+
+
+    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
+
+
+    <script src="script.js"></script>
+    <script>
+        const toggleBtn = document.getElementById('theme-toggle');
+        const icon = toggleBtn.querySelector('i');
+        const html = document.documentElement;
+
+        // Check local storage - REMOVED localStorage usage as per requirements
+        // Theme will reset to default on page reload
+
+        toggleBtn.addEventListener('click', () => {
+            if (html.getAttribute('data-theme') === 'dark') {
+                html.removeAttribute('data-theme');
+                icon.classList.remove('fa-lightbulb');
+                icon.classList.add('fa-moon');
+            } else {
+                html.setAttribute('data-theme', 'dark');
+                icon.classList.remove('fa-moon');
+                icon.classList.add('fa-lightbulb');
+            }
+        });
+
+        // Show More Publications functionality
+        const showMoreBtn = document.getElementById('showMoreBtn');
+        const btnText = document.getElementById('btnText');
+        const additionalPubs = document.querySelectorAll('.additional-pub');
+        let isExpanded = false;
+
+        showMoreBtn.addEventListener('click', () => {
+            isExpanded = !isExpanded;
+
+            additionalPubs.forEach((pub, index) => {
+                if (isExpanded) {
+                    pub.classList.remove('hidden');
+                    // Add staggered fade-in animation
+                    setTimeout(() => {
+                        pub.classList.add('fade-in');
+                    }, index * 100);
+                } else {
+                    pub.classList.add('hidden');
+                    pub.classList.remove('fade-in');
+                }
+            });
+
+            if (isExpanded) {
+                btnText.textContent = 'Show Less';
+                showMoreBtn.classList.add('expanded');
+            } else {
+                btnText.textContent = 'Show More';
+                showMoreBtn.classList.remove('expanded');
+                // Smooth scroll back to publications header
+                document.querySelector('#publications').scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+
+
+        // Scroll Animation
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Cyber Tech Cursor Effect
+        let lastParticleTime = 0;
+
+        document.addEventListener('mousemove', (e) => {
+            const now = Date.now();
+            // Spawn rate
+            if (now - lastParticleTime > 30) {
+                createTechParticle(e.clientX, e.clientY);
+                lastParticleTime = now;
+            }
+        });
+
+        function createTechParticle(x, y) {
+            const particle = document.createElement('div');
+            particle.classList.add('tech-particle');
+
+            // Randomize slightly
+            const offsetX = (Math.random() - 0.5) * 15;
+            const offsetY = (Math.random() - 0.5) * 15;
+
+            particle.style.left = `${x + offsetX}px`;
+            particle.style.top = `${y + offsetY}px`;
+
+            document.body.appendChild(particle);
+
+            // Cleanup after animation
+            setTimeout(() => {
+                particle.remove();
+            }, 800);
+        }
+    </script>
+</body>
+
+</html>
