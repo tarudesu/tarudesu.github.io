@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/15a8bq.9lzecb.css","style"]
+:HL["/_next/static/chunks/0nrzd2bg.ragv.css","style"]
 :HL["/_next/static/media/115e7a2565b70400-s.p.0ldth1faq2ch-.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/3c285486269019b7-s.p.0sn2213rkw2e_.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/53e45098eac42afb-s.p.0l2qk94b1u89y.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
@@ -7,4 +7,4 @@
 :HL["/_next/static/media/8ffc259da9d23054-s.p.0b_.2~bprftx..woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/ed5f1f9bced69653-s.p.0t~r0znp74~xb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/profile-photo.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"education","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"BsZpHFoubyz4J7X4PYLwB"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"education","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"o0DIWUVBJdXDd0Kr_8c1s"}
